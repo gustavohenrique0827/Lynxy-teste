@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: mode === 'production' ? "/Lynxy-teste/" : "/",
+  base: mode === 'production' ? "/Lynxy-teste" : "/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
