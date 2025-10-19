@@ -16,9 +16,7 @@ const root = createRoot(rootElement);
 // 🪄 Suave carregamento inicial com fallback opcional
 root.render(
   <React.StrictMode>
-    <div className="animate-fadeIn min-h-screen bg-gray-50 text-gray-900 transition-all duration-500">
-      <App />
-    </div>
+    <App />
   </React.StrictMode>
 );
 
